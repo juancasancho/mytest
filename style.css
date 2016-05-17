@@ -1,0 +1,1231 @@
+/*
+Theme Name: Bingo.net Child
+Description: Child theme for Bingo.net theme
+Author: JC Sancho | The Level Media
+Author URI: http://thelevelmedia.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+a {}
+
+.rating-txt {
+  float: left!important;
+  margin-bottom: 8px!important;
+  width: 40%!important;
+}
+
+.star-rating {
+  float: left !important;
+  margin-bottom: 10px !important;
+  margin-top: -5px;
+  width: 60% !important;
+}
+
+.star-rating span::before, .star-rating::before {
+  color: #f89600!important;
+  font-size: 22px!important;
+}
+
+.review_offer {clear:both!important;}
+
+.has-sidebar .fusion-fullwidth-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.review_btn {
+  background: #18C1F4!important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#18C1F4), to(#007FB0))!important;
+  background: -moz-linear-gradient(top,  #18C1F4,  #007FB0)!important;
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#18C1F4', endColorstr='#007FB0')!important;
+  border: 1px solid #007fb0;
+  border-radius: 8px;
+  color: #fff !important;
+  display: block;
+  font-family: Neon-80s;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 14px;
+  max-width: 235px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.review_btn:hover {
+    background: #007FB0!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#007FB0), to(#18C1F4))!important;
+    background: -moz-linear-gradient(top,  #007FB0,  #18C1F4)!important;
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#007FB0', endColorstr='#18C1F4')!important;
+}
+
+.review-pic {
+  max-width: 430px;
+  width: 95%;
+}
+
+.review-table {
+  margin-bottom: 35px;
+}
+
+.about-author, .fusion-meta-info {display:none;}
+
+.single-grfwp-review .entry-title {
+  display: block;
+  margin-bottom: -30px !important;
+  text-indent: -9999px;
+}
+
+.has-sidebar .single-navigation {display: none}
+
+.fusion-header, .layout-boxed-mode .side-header-wrapper, .side-header-background {
+  background-color: rgba(1, 19, 66, 1)!important;
+}
+
+#comment-input input, .avada-select .select2-container .select2-choice, .avada-select-parent select, .chzn-container .chzn-drop, .chzn-container-single .chzn-single, .input-text:not(textarea), .main-nav-search-form input, .post-password-form label input[type="password"], .search-page-search-form input, .searchform .search-table .search-field input, .wpcf7-captchar, .wpcf7-form .wpcf7-date, .wpcf7-form .wpcf7-number, .wpcf7-form .wpcf7-quiz, .wpcf7-form .wpcf7-select, .wpcf7-form .wpcf7-text, input.s, input[type="text"], select {
+  height: 45px!important;
+}
+
+#sidebar #tablepress-5 tbody td, #sidebar #tablepress-5 tfoot th {
+  padding: 11px!important;
+}
+
+#sidebar  .play_btn_front {
+  background-size: cover !important;
+  height: 42px !important;
+  width: 180px !important;
+ top: 0px!important;
+}
+
+#sidebar .right-box-text {
+  padding: 4px 32px 10px !important;
+}
+
+#sidebar .fusion-modal .modal-title, #sidebar .fusion-modal h3, #sidebar .fusion-widget-area h3, #sidebar .post-content h3, #sidebar .project-content h3 {
+  font-size: 21px!important;
+}
+
+.post {
+  padding: 20px;
+}
+
+
+.fusion-main-menu > ul > li > a {
+  font-size: 16px!important;
+}
+
+.fusion-copyright-notice {
+  font-size: 14px!important;
+}
+
+#toptenboxins .editor_btn {
+  bottom: -30px !important;
+  display: block !important;
+  /** float: left !important; **/
+  position: relative !important;
+  right: 0 !important;
+  text-indent: -9999px !important;
+}
+
+#toptenboxins .more-link {
+  float: right!important;
+}
+
+.tablepress .editor_btn {text-indent: -9999px!important;}
+
+
+.fusion-main-menu .current-menu-ancestor > a, .fusion-main-menu .current-menu-item > a, .fusion-main-menu .current-menu-parent > a, .fusion-main-menu .current_page_item > a {
+  border-color: transparent!important;
+  color: #fff!important;
+}
+
+.home .gr-reviews h3 {font-size: 20px!important; }
+
+.fusion-main-menu > ul > li > a:hover {
+    border-color: transparent!important;
+}
+
+.fusion-logo {
+  margin: 0!important;
+}
+
+#main .sidebar {
+  background-color: #fafafa !important;
+  padding: 3% 1.8% !important;
+}
+
+#main {
+    padding-bottom: 0px!important;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  min-height: 0!important;
+}
+
+body.has-sidebar #content {
+    width: calc(100% - 25% - 25px)!important;
+}
+
+.single #main .fusion-row { background-color: #fff!important; }
+
+.single #main {
+  padding-top: 0!important;
+}
+
+.fusion-header-v4 .fusion-header {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#main {
+  background-color: #ccd6e1!important;
+}
+
+.fusion-main-menu > ul > li {
+  background-color: #fdebf9;
+  margin: 0 1px 0 0 !important;
+  min-height: 50px !important;
+  padding-right: 0 !important;
+  text-align: center !important;
+  width: 24.9% !important;
+    float: left!important;
+}
+
+/*.fusion-main-menu > ul > li:hover {
+  background-color: #F022B1 !important;
+  color:#fff!important;
+}*/
+
+.fusion-main-menu > ul > li a:hover {
+  background-color: #F022B1!important;
+    color:#fff!important;
+}
+
+.fusion-main-menu > ul > li > a {
+  height: 50px!important;
+  line-height: 50px!important;
+}
+
+.fusion-main-menu ul .current_page_item{
+    background-color: #ef22a3!important;}
+
+.current-menu-item{
+    background-color: #ef22a3!important;}
+
+
+.fusion-main-menu > ul > li > a {line-height: 50px!important;}
+
+.fusion-mobile-menu-sep, .fusion-secondary-main-menu {
+  border-bottom: 8px solid #f022b1 !important;
+}
+
+.slider-form-header .fusion-layout-column {
+  margin-right: 0%!important;
+}
+
+.slider-form-header .fusion-one-fourth {
+  width: 26%!important;
+}
+
+.form-side .wpcf7 { text-align: center!important;}
+
+.form-side .wpcf7 h3 {
+  color: #fd22b7;
+  font-weight: normal !important;
+  line-height: 1.0em;
+  margin: 0;
+  padding: 10px 0 5px;
+}
+
+.form-side .wpcf7 h3 span{
+  font-weight: bold !important;
+}
+
+.form-side .wpcf7 .wpcf7-email, .form-side .wpcf7 .wpcf7-text {
+  background-color: #fff !important;
+  border-radius: 6px !important;
+  color: #0089c3 !important;
+  font-size: 16px;
+  margin: 4px 0;
+  padding: 4px !important;
+  text-align: center;
+  width: 85% !important;
+}
+
+.sidebar .widget h3 {
+  color: #ef22a3!important;
+}
+
+.sidebar .widget h4 {
+  color: #545454 !important;
+  font-size: 18px!important;
+}
+
+#main {
+  background-position: center top !important;
+}
+
+.gr-author-name {
+display:none;
+}
+
+.toptenboxtext{
+
+padding-left: 20px;
+padding-top: 5px;
+}
+
+#toptenbox .fusion-one-fourth img, #post-2 .fusion-one-fourth img {
+  max-width: 200px !important;
+  width: 100% !important;
+}
+
+.fusion-one-fourth .editor_btn {
+  bottom: 14px;
+  position: absolute;
+  right: 20px;
+}
+
+#post-9 .reviewteaser-1 .fusion-column-wrapper, .reviewteaser-3 .fusion-column-wrapper
+{ border-radius:12px;
+}
+
+/* Start Contact Page Styles*/
+
+#wpcf7-f8-p1275-o1
+{text-align: center!important;
+width:80%;
+/*background:#ccd6e0;*/
+margin:auto;
+margin-top:0px;
+margin-bottom:50px;
+}
+
+#wpcf7-f8-p1275-o1 h3 {
+  color:#fd22b7;
+  font-weight: normal !important;
+  line-height: 1.0em;
+  margin: 0;
+  padding: 10px 0 5px;
+}
+#wpcf7-f8-p1275-o1 h3 span{
+  font-weight: bold !important;
+}
+#wpcf7-f8-p1275-o1 .wpcf7-email, .wpcf7 .wpcf7-text, .wpcf7-textarea {
+  background-color: #f0f3f6!important;
+  border: #e5eaf0 1px solid!important;
+  border-radius: 6px !important;
+  color: #0089c3 !important;
+  font-size: 16px!important;
+  margin: 4px 0;
+  padding: 4px !important;
+  text-align: center;
+  width: 85% !important;
+}
+
+#wpcf7-f8-p1275-o1  {
+padding-bottom:20px;
+padding-top:20px;
+}
+
+#wpcf7-f8-p1275-o1 .wpcf7-submit {
+  background: rgba(0, 0, 0, 0) url("/wp-content/uploads/submit_btn.png") no-repeat scroll center top;
+  height: 51px;
+  margin-top: 9px;
+  text-indent: -9999px;
+  width: 217px;
+}
+
+#wpcf7-f8-p1275-o1 .wpcf7-submit:hover {
+  background: rgba(0, 0, 0, 0) url("/wp-content/uploads/submit_btn.png") no-repeat scroll center bottom;
+}
+
+#wpcf7-f8-p1275-o1 textarea{
+width:85% !important;
+}
+/* End Contact Page Styles*/
+
+div.wpcf7 img.ajax-loader {
+  display: none!important;
+}
+
+.form-side .wpcf7 .wpcf7-submit {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/signup_btn.png") no-repeat scroll center top;
+  height: 51px;
+  margin-top: 9px;
+  text-indent: -9999px;
+  width: 217px;
+}
+
+.form-side .wpcf7 .wpcf7-submit:hover {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/signup_btn.png") no-repeat scroll center bottom;
+}
+
+ .wpcf7 .wpcf7-submit:hover {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/signup_btn.png") no-repeat scroll center bottom;
+}
+
+ .wpcf7-form .wpcf7-not-valid-tip {
+  display: block!important;
+  font-size: 10px!important;
+  margin: -9px 0 -43px !important;
+}
+
+.wpcf7-form .wpcf7-response-output {
+  border: 0 none !important;
+  box-shadow: none !important;
+  font-size: 10px !important;
+  font-weight: bold!important;
+  line-height: 16px !important;
+  margin-top: -18px !important;
+  padding: 0 20px !important;
+  text-align: center !important;
+  text-transform: none !important;
+}
+
+#wpcf7-f881-o1 h3{
+font-size:22px;
+}
+
+#wpcf7-f881-o1 input{
+width:95% !important;
+}
+
+.avada-skin-rev {
+  border-bottom: 0 solid #d2d3d4!important;
+  border-top: 0 solid #d2d3d4!important;
+}
+
+.wpcf7-form .wpcf7-validation-errors {
+  background-color: transparent!important;
+  border: 0 none!important;
+  color: #b94a48!important;
+}
+
+.fusion-footer-widget-area {
+  background-color: #ccd6e1!important;
+  border-color: #ccd6e1!important;
+    border: 0px!important;
+}
+
+.fusion-alert .close, .tribe-events-notices .close {
+  display: none!important;
+}
+
+.fusion-footer-copyright-area {
+  background-color: #051243;
+  border-color: #051243;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.front-h-titles h2 {
+  color: #eb30b1 !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  line-height: 20px !important;
+}
+
+.box-wrappa {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/editors_bg.png") no-repeat scroll 0 0 / 100% 100%;
+  padding: 0 10px;
+}
+
+#post-1125 .table-1{
+line-height:.5em;
+}
+
+#post-1125 .table-1 td{
+border:none;
+}
+
+#post-1125 img{
+min-width:200px;
+}
+
+#tablepress-1 caption { display: none;}
+
+
+#tablepress-1 tbody td, #tablepress-1 tfoot th {
+  border-top: 1px solid #fff !important;
+}
+
+#tablepress-1 .row-1 td  {
+  border-top: 0px solid #fff !important;
+}
+
+#tablepress-1 img {
+    border: medium none;
+    display: block;
+    max-width: none;
+    padding: 0;
+}
+
+#tablepress-1 .column-1 img {
+    margin: 0px 0 -4px 0!important;
+}
+
+#tablepress-1 .column-3 img {
+  float: right;
+  position: relative;
+  right: 20px;
+}
+
+.fusion-title-size-two, h2 {
+  margin-bottom: 0.65em!important;
+
+}
+
+#tablepress-1 tbody td, .tablepress tfoot th {
+  color: #222;
+  font-size: 16px;
+}
+
+#tablepress-1 .column-1 {
+    width: 15%;
+}
+
+.play_btn_front {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/playnow_btn.png") no-repeat scroll center top;
+  display: block;
+  height: 51px;
+  margin: 0 auto;
+  position: relative;
+  text-indent: -9999px;
+  top: -20px;
+  width: 217px;
+}
+
+.play_btn_front:hover {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/playnow_btn.png") no-repeat scroll center bottom;
+}
+
+.right-box-text h2 {
+  color: #f022b1 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  margin: 10px 0 0 !important;
+  padding-top: 14px;
+  text-align: center !important;
+}
+
+.right-box-text h3 {
+  color: #f022b1 !important;
+  font-size: 21px !important;
+  line-height: 22px !important;
+  margin: 13px 0 8px !important;
+  text-align: center !important;
+}
+
+.right-box-text h4 {
+  color: #333 !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  margin: 13px 0 8px !important;
+  text-align: center !important;
+}
+
+.right-box-text p {
+  color: #000;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.right-box-text {
+  background-color: #d2e3f5;
+  padding: 0 32px;
+}
+
+#colored .title-heading-left {color:#fff!important;}
+
+#colored {
+  background-color: #fff !important;
+  color: #fff !important;
+  display: block;
+  height: 42px;
+  margin-bottom: 0 !important;
+  position: relative;
+  top: 0;
+}
+
+.bingo-sites-column .fusion-layout-column {
+  margin-bottom: 0px;
+  margin-right: 0!important;
+}
+
+.bingo-sites-column .fusion-one-fourth {
+  width: 25%!important;
+}
+
+.tablepress {
+  margin-bottom: 0em!important;
+
+}
+
+.bingo-sites-column .fusion-one-half {
+  margin-bottom: 0px!important;
+}
+
+.checkout .payment_methods .payment_box, .post-content blockquote, .review blockquote q {
+  background-color: transparent!important;
+  border: 0 none!important;
+}
+
+.gr-review-body {
+  font-size: 14px!important;
+  font-style: normal!important;
+  line-height: 16px!important;
+  padding-left:0px;
+  text-align:justify;
+}
+
+.column_games td,  .column_games h4 { color:#fff!important; }
+
+.column_games caption {display: none!important;}
+
+.column_games  .tablepress tbody td, .column_games  .tablepress tfoot th {
+  border-top: 0px solid #ddd;
+}
+
+
+.pinky{
+color: #f205b0;
+}
+
+.gr-review {
+  margin: 0!important;
+}
+
+.fusion-footer .fusion-column {width:100%;}
+
+ .fusion-footer-widget-area .fusion-one-fifth { width: 16%;}
+
+.fusion-footer-copyright-area .bottom_links {
+  clear: both !important;
+  display: block;
+ text-align: center!important;
+ padding: 0 !important;
+}
+
+ .fusion-footer-widget-area {
+  padding-bottom: 0!important;
+  border: 0px!important;
+}
+
+.fusion-footer-widget-area {
+  background-color: #3d424f;
+  border-color: #3d424f;
+  padding-bottom: 25px;
+  padding-top: 0;
+}
+
+.fusion-footer-copyright-area {
+  background-color: #051241!important;
+  border-color: #051241!important;
+  padding-bottom: 0;
+  padding-top: 15px!important;
+}
+
+.fusion-footer-widget-area {
+  background-color: #3d424f;
+  border-color: #3d424f;
+  padding-bottom: 25px;
+  padding-top: 0px!important;
+}
+
+.fusion-footer-copyright-area .bottom_links li {
+  border: 0 none !important;
+  display: inline-table;
+  list-style: outside none none;
+  padding-right: 10px;
+}
+.fusion-footer-copyright-area .bottom_links a {color: #fff!important; border: 0px!important;
+}
+/*.bottom_p {
+  color: #fff !important;
+  line-height: 1.2em !important;
+  float: left;
+  width: 70%;
+}*/
+
+.bottom_p {
+  color: #fff !important;
+  float: none;
+  line-height: 1.2em !important;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom_p br { margin-bottom: 10px;
+}
+
+.bottom_logo {
+  float: none !important;
+  margin-top: 0;
+  max-width: 310px;
+  width: 100%;
+}
+
+.fusion-footer-copyright-area .bottom_links a {
+  color: #fea5fe !important;
+  font-weight: bold!important;
+}
+
+#toTop {
+  background-color: #f031b4!important;
+}
+
+
+#tablepress-3 td
+{ background-color:transparent !important;
+}
+
+.wpcf7-form .wpcf7-mail-sent-ok {
+background-color:transparent !important;
+}
+
+#footerlogosrow {
+
+padding-bottom:20px !important;
+
+}
+
+#tablepress-1 img {
+
+padding-bottom:11px;
+}
+
+.editor_btn {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/editors_playnow_btn.png") no-repeat scroll center top;
+    display: block;
+    height: 30px;
+    width:90px;
+}
+
+.editor_btn:hover  {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/editors_playnow_btn.png") no-repeat scroll center bottom;
+
+}
+
+.editor_btnSmall {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/widget_playnow_36x60_btn.png") no-repeat scroll center top;
+    display: block;
+    height: 30px;
+    width:36px;
+}
+
+.editor_btnSmall:hover  {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/widget_playnow_36x60_btn.png") no-repeat scroll center bottom;
+
+}
+
+.editor_btnSmallmore {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/widget_readmore_36x60_btn.png") no-repeat scroll center top;
+    display: block;
+    height: 30px;
+    width:36px;
+}
+
+.editor_btnSmallmore:hover  {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/widget_readmore_36x60_btn.png") no-repeat scroll center bottom;
+
+}
+
+.more-link {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/boton_full_review.png") no-repeat scroll center bottom;
+    display: block;
+    height: 30px;
+    width:90px;
+    text-indent: -9999px;
+}
+
+.more-link:hover  {
+    background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/boton_full_review.png") no-repeat scroll center top;
+
+}
+
+.reviewteaser-1 .more-link
+{
+margin-top:20px;
+}
+
+#reviewteaser-2 .more-link
+{
+margin-top:15px;
+}
+
+#reviewteaser-3 .more-link
+{
+margin-top:15px;
+}
+
+#reviewteaser-4 .more-link
+{
+margin-top:15px;
+}
+#tablepress-4 td{
+text-align:center !important;
+}
+
+#tablepress-3 {
+margin-left:50px;
+}
+
+#toptenbox-4 {
+padding-left:5px !important;
+padding-right:5px !important;
+border: 1px solid #f205b0 !important;
+margin-left: 20px;
+margin-right: 5px;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+
+
+#ulp-layer-293 {
+  font-family: "MuseoSlab500Regular",arial,helvetica,sans-serif!important;
+  letter-spacing: 0!important;
+  line-height: 1em!important;
+}
+
+#ulp-layer-293, #ulp-layer-293 * {
+    font-family: "MuseoSlab500Regular",arial,helvetica,sans-serif!important;
+  font-size: 34px!important;
+}
+
+#ulp-layer-293 span {
+    font-weight: 700!important;
+}
+
+#ulp-layer-297, #ulp-layer-297 * {
+  font-family: "MuseoSlab500Regular",arial,helvetica,sans-serif !important;
+  font-size: 20px!important;
+}
+
+
+
+@media all and (max-width: 980px){
+
+
+
+
+.slider-form-header .fusion-one-fourth {
+  width: 100%!important;
+}
+
+    .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header {
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+}
+
+    .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header-banner {
+  margin-top: 0;
+}
+
+    .fusion-mobile-menu-icons a {
+  font-size: 35px!Important;
+}
+
+    .fusion-mobile-menu-icons a::before {
+  color: #fff!important;
+}
+
+    .fusion-mobile-current-nav-item a {color:#fff!important;}
+    .fusion-mobile-nav-item a:hover {color:#fff!important;}
+    .fusion-mobile-nav-item a {font-size: 14px!important; font-weight: 600!important;}
+
+
+
+    #colored {
+  height: 53px!important;
+}
+
+        .the-slider, .form-side {
+    width: 100%!important;
+}
+
+    .fusion-title-size-four, h4 {
+  font-size: 12px !important;
+}
+
+ .fusion-footer .fusion-layout-column.fusion-one-fifth {
+  margin-right: 1%!important;
+}
+
+    .fusion-layout-column.fusion-one-fifth {
+  width: 18.8%!important;
+}
+
+
+
+}
+
+@media all and (max-width: 800px){
+
+        body.has-sidebar #content {
+        width: 100% !important;}
+
+    #toptenboxins .editor_btn {
+  bottom: 0 !important;
+}
+
+#toptenboxins .fusion-column-table {
+  height: 40px!important;
+}
+
+    #toptenboxins .fusion-column-wrapper {
+min-height: 50px !important;
+}
+
+    .toptenboxtext h5 {
+  line-height: 20px !important;
+}
+
+
+    .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header-banner {
+ display: none;
+  margin-top: 0;
+}
+
+    .box-wrappa {
+  background: #cfe3f7 none repeat scroll 0 0!important;
+  border-radius: 8px!important;
+}
+
+    .bottom_p {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+}
+
+@media all and (min-width: 980px) and (max-width: 1170px){
+.fusion-header-banner .thumbnail {max-width: 590px!important;}
+.fusion-main-menu > ul > li {width: 24.8% !important;}
+
+        .fusion-header-content-3-wrapper .fusion-header-banner img {
+  max-width: 596px!important;
+  width: 100%!important;
+}
+
+
+
+    .play_btn_front {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/playnow_btn.png") no-repeat scroll center top / cover !important;
+  height: 34px!important;
+  width: 150px!important;
+}
+
+    .right-box-text h3 {
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+
+    .right-box-text h4 {
+  font-size: 13px !important;
+  line-height: 13px !important;
+  margin: 13px 0 -15px !important;
+}
+
+    #tablepress-1 .column-3 img {
+  width: 42px!important;
+}
+
+    #tablepress-1 .column-1 img {
+  width: 26px!important;
+}
+
+    .tablepress td, .tablepress th {
+  padding: 8px 8px 6px!important;
+}
+
+    .right-box-text {
+  margin-top: -10px;
+}
+
+    }
+
+
+
+@media all and (min-width: 980px) and (max-width: 1169px){
+
+body.has-sidebar #content {
+  width: calc(100% - 30% - 25px) !important;
+}
+
+    body.has-sidebar #main .sidebar {
+  width: 30%!important;
+}
+
+    #toptenboxins .more-link {
+  float: none !important;
+}
+
+    }
+
+
+
+@media all and (min-width: 767px) and (max-width: 979px){
+
+
+#toptenbox {
+  border: 1px solid #f205b0 !important;
+  float: left !important;
+  margin: 12px 5px 12px 20px;
+  min-height: 350px !important;
+  padding: 0 5px;
+  width: 45% !important;
+}
+
+    .fusion-columns .fusion-column:not(.fusion-column-last) {
+  margin: 0!important;
+}
+
+
+.fusion-header-banner .thumbnail {max-width: 410px!important;}
+.fusion-main-menu > ul > li {width: 24.8% !important;}
+
+        .fusion-header-content-3-wrapper .fusion-header-banner img {
+  max-width: 417px!important;
+  width: 100%!important;
+}
+
+
+    .the-slider, .form-side {
+    width: 100%!important;
+}
+
+.front_reviews .fusion-one-fourth {
+  width: 48% !important;
+}
+
+    .column_games td, .column_games h4 {
+  line-height: 14px!important;
+}
+
+
+
+    .fullwidth-box .fusion-column-wrapper {padding: 0px!important;}
+
+    }
+
+@media all and (min-width: 481px) and (max-width:800px){
+      .bingo-sites-column  .fusion-layout-column.fusion-one-fourth {
+  width: 50%!important;
+}
+    .front_reviews .fusion-one-fourth {
+  padding: 0px!important;
+        margin: 0px!important;
+}
+    #content {
+  margin-bottom: 0px!important;
+}
+
+}
+
+@media all and (max-width: 480px){
+
+.textwidget .more-link {
+  float: left!important;
+  margin-left: 0!important;
+}
+
+.textwidget .editor_btn {
+  background-size: cover !important;
+  float: right;
+  height: 31px !important;
+  text-indent: -9999px !important;
+  width: 85px !important;
+}
+
+#toptenbox {
+  left: -8px!important;
+  position: relative!important;
+}
+#post-9  .fusion-fullwidth-3  .editor_btn {
+  background-image: url("http://bingo.net/wp-content/uploads/editors_playnow_btn.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: block !important;
+  height: 32px !important;
+  margin: 0 auto !important;
+  width: 87px !important;
+}
+
+    .fusion-one-fourth .editor_btn {
+  bottom: 60px!important;
+  float: right!important;
+  margin-bottom: -20px!important;
+  position: relative!important;
+  right: 5%!important;
+}
+
+    .fusion-title.fusion-sep-none .title-heading-left {
+  text-align: center!important;
+}
+
+    #wpcf7-f881-p9-o1 span {padding: 0px;}
+
+
+    .editor_btn {
+  background-image: url("http://bingo.net/wp-content/uploads/editors_playnow_btn.png")!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  display: block!important;
+  height: 37px!important;
+  margin: 0 auto!important;
+  width: 100px!important;
+}
+
+    .fusion-fullwidth-1,  .fusion-fullwidth-2,  .fusion-fullwidth-3,  .fusion-fullwidth-4{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+
+#tablepress-1 td, #tablepress-1 th {
+  float: left !important;
+  padding: 3px!important;
+  text-align: left;
+  width: 100% !important;
+}
+
+#tablepress-1 img {
+  padding-bottom: 5px !important;
+  width: 100% !important;
+}
+
+#tablepress-1 tr {
+  clear: both !important;
+  display: block !important;
+  min-height: 195px;
+  padding: 20px !important;
+}
+
+    #tablepress-1 tbody td, #tablepress-1 tfoot th {
+  border-top: 0px solid #fff !important;
+}
+
+        #tablepress-1 tr {
+  border-top: 1px solid #fff !important;
+}
+
+    #tablepress-1  .column-2 { padding: 10px 0px!important; }
+
+  .fusion-footer  .fusion-columns .fusion-column {
+  margin: 0 !important;
+}
+
+    .fusion-footer-copyright-area .bottom_links li {
+  padding-right: 5px!important;
+}
+
+    .bottom_p {
+  font-size: 11px;
+  width: 100% !important;
+}
+
+        #content {
+  margin-bottom: 0px!important;
+}
+    .fusion-layout-column.fusion-one-fifth {
+  width: 100% !important;
+}
+
+    .front_reviews .fusion-one-fourth {
+  padding: 0px!important;
+        margin: 0px!important;
+}
+
+    .fusion-footer-copyright-area .bottom_links li {
+  font-size: 10px!important;
+  font-weight: bold!important;
+  padding-right: 9px!important;
+  text-align: center !important;
+}
+
+  .front_reviews  .fusion-column-wrapper {
+  padding: 0 0 0px !important;
+}
+
+      .bingo-sites-column  .fusion-layout-column.fusion-one-fourth {
+  width: 100%!important;
+}
+
+.fusion-column-wrapper {
+  padding: 0 0 20px !important;
+}
+
+    #colored {
+  display: none!important;
+}
+
+    .play_btn_front {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/playnow_btn.png") no-repeat scroll center top / cover !important;
+  height: 35px!important;
+  width: 150px!important;
+}
+
+    .bingo-brand {
+  margin-bottom: -30px!important;
+  margin-top: 0!important;
+}
+
+    .right-box-text h3 {
+  font-size: 20px !important;
+}
+
+    #tablepress-1 .column-3 img {
+  right: 0!important;
+}
+
+#tablepress-1 tbody td, .tablepress tfoot th {
+  font-size: 13px !important;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.the-slider {
+  margin-bottom: -20px!important;
+  margin-top: 0!important;
+}
+
+   .form-side .wpcf7 .wpcf7-submit {
+  background: rgba(0, 0, 0, 0) url("http://bingo.net/wp-content/uploads/signup_btn.png") no-repeat scroll center top / cover!important;
+  height: 47px!important;
+  width: 200px!important;
+}
+
+.more-link {
+  margin-left:0px;
+}
+
+
+}
+@media all and (max-width:360px) {
+
+
+
+#tablepress-1 .column-3
+{
+display:block !important;
+width:100%;
+}
+
+#tablepress-4 td
+{
+display:block !important;
+width:100%;
+}
+
+.more-link {
+  margin-left:0px;
+}
+
+
+}
